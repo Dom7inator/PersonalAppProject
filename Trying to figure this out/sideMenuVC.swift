@@ -31,6 +31,8 @@ class sideMenuVC: UIViewController {
             super.viewDidLoad()
             view.backgroundColor = .systemBlue
             
+          
+            
             changeLabels()
             
             // Create swipe gesture recognizers for left and right directions
