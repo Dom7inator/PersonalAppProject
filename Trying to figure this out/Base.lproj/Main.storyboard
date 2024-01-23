@@ -512,13 +512,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Apointment " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mxu-WR-7CO">
-                                <rect key="frame" x="285" y="488" width="93" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uYX-Ed-ax3">
+                                <rect key="frame" x="66" y="103" width="327" height="739"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="hLE-4S-uoX" kind="embed" id="udL-a9-YFX"/>
+                                </connections>
+                            </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2h0-JU-g4g" customClass="topMenu">
                                 <rect key="frame" x="0.0" y="-10" width="393" height="115"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -1000,12 +1000,33 @@
             </objects>
             <point key="canvasLocation" x="4648" y="-369"/>
         </scene>
+        <!--Appointment BookerVC-->
+        <scene sceneID="aty-0U-rh3">
+            <objects>
+                <viewController id="hLE-4S-uoX" customClass="appointmentBookerVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fMA-pf-2rA">
+                        <rect key="frame" x="0.0" y="0.0" width="327" height="739"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="cSz-Ik-zvz">
+                                <rect key="frame" x="84" y="312" width="227" height="88"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </datePicker>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="u9U-x5-dd5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tdx-co-1yk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4646.5648854961828" y="-2197.5352112676055"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ZhX-PW-dat"/>
-        <segue reference="hH9-8E-XK0"/>
-        <segue reference="5kA-1P-VqY"/>
-        <segue reference="yGj-zx-S0h"/>
+        <segue reference="9z5-aC-xmb"/>
+        <segue reference="Sc4-kh-7ha"/>
+        <segue reference="qa0-6n-HZd"/>
+        <segue reference="B4J-zT-6kE"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="_HW1iwv2_400x400-removebg-preview" width="400" height="400"/>

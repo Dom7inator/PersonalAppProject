@@ -15,6 +15,7 @@
 		D052D94C2B1A406A00CE96EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D052D94A2B1A406A00CE96EC /* LaunchScreen.storyboard */; };
 		D052D9582B1E1AD900CE96EC /* sideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D052D9572B1E1AD900CE96EC /* sideMenuVC.swift */; };
 		D052D95A2B1F820500CE96EC /* topMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D052D9592B1F820500CE96EC /* topMenuVC.swift */; };
+		D080AC2C2B5984AB00F436FB /* appointmentBookerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D080AC2B2B5984AB00F436FB /* appointmentBookerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D052D94D2B1A406A00CE96EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D052D9572B1E1AD900CE96EC /* sideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideMenuVC.swift; sourceTree = "<group>"; };
 		D052D9592B1F820500CE96EC /* topMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topMenuVC.swift; sourceTree = "<group>"; };
+		D080AC2B2B5984AB00F436FB /* appointmentBookerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appointmentBookerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				D052D9432B1A406900CE96EC /* ViewController.swift */,
 				D052D9572B1E1AD900CE96EC /* sideMenuVC.swift */,
 				D052D9592B1F820500CE96EC /* topMenuVC.swift */,
+				D080AC2B2B5984AB00F436FB /* appointmentBookerVC.swift */,
 				D052D9452B1A406900CE96EC /* Main.storyboard */,
 				D052D9482B1A406A00CE96EC /* Assets.xcassets */,
 				D052D94A2B1A406A00CE96EC /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D052D9442B1A406900CE96EC /* ViewController.swift in Sources */,
+				D080AC2C2B5984AB00F436FB /* appointmentBookerVC.swift in Sources */,
 				D052D9402B1A406900CE96EC /* AppDelegate.swift in Sources */,
 				D052D95A2B1F820500CE96EC /* topMenuVC.swift in Sources */,
 				D052D9582B1E1AD900CE96EC /* sideMenuVC.swift in Sources */,
